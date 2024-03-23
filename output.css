@@ -1,0 +1,316 @@
+/* Login */
+body {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    margin: 0;
+    padding: 10;
+    background-color: #a1cdff;
+    background-image: url(pxfuel.jpg);
+    background-size: cover;
+}
+
+.login-container {
+    max-width: 900px; /* Set the width to your desired value */
+    margin: 0 auto;
+    background-image: -webkit-linear-gradient(right, rgba(0, 254, 237, 0.733),rgba(250, 171, 230, 0.664));
+    padding: 80px 120px; /* Padding-top and padding-bottom adjusted */
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(99, 106, 108, 0.998);
+} 
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family:Verdana;
+    font-weight: 100;
+    font-style:initial;
+}
+.input-container {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.input-container i {
+    position: absolute;
+    left: 10px;
+    color: #f580f3;
+}
+.input-container input {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid #c84ff4;
+    border-radius: 5px;
+    border-color: #dd9df8f9;
+    text-align: center; /* Center the text inside the input field */
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.button-login  {
+    Margin:auto;
+    color:#fafafa;
+    background-color:#fb86e5cb;
+    border-color: #9ff2ff;
+    width: calc(109%);
+    padding: 10px;
+}
+
+/* Dashboard */
+.body {
+    text-align: center;
+}
+
+
+h1 {
+    text-align: center; /* Center the text */
+    font-family: 'Lucida Sans Unicode';
+    position:absolute; /* Position the element absolutely */
+    top: 10px; /* Align to the top */
+    left: 30%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 100%; /* Full width */
+    margin-bottom: 90px; /* Optional: Add some top margin */
+    color: #ffffff;
+    font-family: 'Lucida Grande';
+}
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; 
+
+}
+.topbar {
+    background-image: -webkit-linear-gradient(right, rgba(0, 254, 237, 0.512),rgba(250, 171, 230, 0.517));
+    color: #fff;
+    padding: 10px 16px;
+    width: 85%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 225px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-container {
+    max-width: 900px; 
+    margin: 0 auto;
+    background-image: -webkit-linear-gradient(right, rgba(0, 254, 237, 0.733),rgba(250, 171, 230, 0.664));
+    padding: 80px 120px; 
+    border-radius: 20px;
+    box-shadow: 0 0 100px rgba(99, 106, 108, 0.998);
+} 
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #ffffff;
+    font-family: 'Lucida Grande';
+    font-size:60px;
+}
+.input-container {
+    position: relative;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+}
+.input-container i {
+    position: absolute;
+    left: 10px;
+    color: #f580f3;
+}
+.input-container input {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    padding-left: 30px;
+    border: 1px solid #c84ff4;
+    border-radius: 5px;
+    border-color: #dd9df8f9;
+    text-align: center; 
+}
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+.button-login  {
+    Margin:auto;
+    color:#fafafa;
+    background-color:#fb86e5cb;
+    border-color: #9ff2ff;
+    width: calc(109%);
+    padding: 10px;
+}
+.body {
+    text-align: center;
+}
+h1 {
+    text-align: center; /* Center the text */
+    font-family: 'Lucida Sans Unicode';
+    position:absolute; /* Position the element absolutely */
+    top: 10px; /* Align to the top */
+    left: 30%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    width: 100%; /* Full width */
+    margin-top: 90px; /* Optional: Add some top margin */
+    color: #f0f0f0;
+    font-family: 'Lucida Grande';
+}
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px; /* Adjust the height as needed */
+    flex-direction: column;
+}
+.dashboard-container h2 {
+    text-align: center;
+}
+.sidebar-display{
+    background-image: -webkit-linear-gradient(right, rgb(0, 254, 237),rgba(255, 116, 220, 0.763));
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    z-index: 1;
+}
+.sidebar-button:hover {
+    background-color: #f7caffe6;
+}
+.sidebar-display ul li a{
+    display: flex;
+    padding: 15px 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #f5b2eb;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    border-top: 1px solid #f5b2eb;
+}
+.main-body {
+    position: relative;
+    top: 100px;
+    padding: 200px;
+    margin-left: 399px; /* h1 welcome to the cyberpunk world*/
+
+    text-align: center;
+}
+.footer {
+    background-image: -webkit-linear-gradient(right, rgba(0, 254, 237, 0.711),rgba(255, 116, 220, 0.763));
+    color: #fff;
+    padding: 10px 20px;
+    width: 85%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 225px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.footer h5 {
+    margin: 0;
+    margin-right: 20px;
+    }
+.topbar h1 {
+    margin: 0;
+    margin-right: 20px;
+    margin-left: 269px; /* My dashboard*/
+    margin-bottom: 90px;
+    font-family: Georgia;
+    font-style: oblique;
+}
+.out-button {
+    position: absolute; /* Position the button */
+    top: 10px; /* Adjust the top position as needed */
+    right: 10px; /* Adjust the right position as needed */
+    z-index: 1002; /* Ensure the button is above the topbar */
+    color: #fafafa;
+    background-color: #fb86e5cb;
+    border-color: #9ff2ff;
+    width: 150px; /* Set a fixed width */
+    padding: 10px;
+    border-radius: 15px;
+    margin-right: 1000px; /* logout button*/
+}
+.dashboard-container h2 {
+text-align: center;
+}
+.sidebar-display{
+    background-image: -webkit-linear-gradient(right, rgb(0, 254, 237),rgba(255, 116, 220, 0.763));
+    color: #f5f5f5;
+    font-style:inherit;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-size: larger;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    z-index: 1;
+}
+.sidebar-button:hover {
+background-color: #f7caffe6;
+
+}
+    .sidebar-display ul li a{
+    display: flex;
+    padding: 15px 5px;
+    padding-left: 10px;
+    border-bottom: 1px solid #f5b2eb;
+    color: #f3f3f3;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.main-body {
+    position: relative;
+    top: 100px;
+    padding: 200px;
+    margin-left: 399px; /* h1 welcome to the cyberpunk world*/
+    padding-left: 90px;
+    text-align:center;
+    font-size: 20px;
+    font-stretch:wider;
+    font-style: initial;
+    }
+.main-body p{  /* paragraph */
+    padding: 10px;
+    padding-left:0px;
+    padding-right:9px;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-style: oblique;
+}
+.footer {
+    background-image: -webkit-linear-gradient(right, rgba(0, 254, 237, 0.711),rgba(255, 116, 220, 0.763));
+    color: #fff;
+    padding: 10px 20px;
+    width: 85%;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    left: 225px;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h5 {
+    margin: 0;
+    margin-right: 20px;
+}
